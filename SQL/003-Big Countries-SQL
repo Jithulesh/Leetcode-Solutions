@@ -1,0 +1,7 @@
+-- Problem: (Big Countries)
+-- Difficulty: Easy
+-- Date: 11-02-2026
+
+SELECT name,population,area
+FROM World
+WHERE area>=3000000 OR population>=25000000;
